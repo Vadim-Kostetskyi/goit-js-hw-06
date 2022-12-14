@@ -1,11 +1,8 @@
 const form = document.querySelector(".login-form");
-const email = form.firstElementChild;
-const password = email.nextElementSibling;
-const button = form.lastElementChild;
-const inputEmail = email.lastElementChild;
-const inputPassword = password.lastElementChild;
-const mailText = email.innerText;
-const passwordText = password.innerText;
+const inputEmail = form.email;
+const inputPassword = form.password;
+
+console.log(inputPassword.value);
 
 const sendForm = (event) => {
   event.preventDefault();
