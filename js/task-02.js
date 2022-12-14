@@ -16,4 +16,4 @@ const ingredientsElements = (array) => {
 
   return liElement;
 };
-// console.log(...ingredients.map(ingredientsElements));
+[...ingredients.map(ingredientsElements)];
